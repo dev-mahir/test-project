@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=DM+Sans:wght@400;500;700&family=Gabriela&family=Lusitana&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=DM+Sans:wght@400;500;700&family=Gabriela&family=Lusitana&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
   font-family: "DM Sans", sans-serif;

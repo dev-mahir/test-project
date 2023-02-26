@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=DM+Sans:wght@400;500;700&family=Gabriela&family=Lusitana&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); */
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.shape {
+  height: 320px;
+  width: 320px;
+  opacity: 0.6;
+  filter: blur(75px);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.shape-red {
+  background-color: #ef5a81;
+  top: -32px;
+  left: -150px;
+}
+.shape-blue {
+  background-color: #109aff;
+  bottom: -32px;
+  left: -134px;
+  opacity: 0.2;
+}
+.shape-yellow {
+  background-color: #ff7122;
+  top: 50%;
+  right: -134px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.react-calendar {
+  border: none !important;
+}
+.react-calendar__tile--active {
+  background: #ffe7df !important;
+  color: #f25a2c !important;
+}
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: none !important;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f25a2c;
+  font-size: 0.75em;
+  font-size: 12px !important;
+  color: white;
+  border-radius: 16px 16px 0 0 !important;
+}
+
+.react-calendar__navigation button {
+  min-width: 17px;
+  font-family: "ABeeZee", sans-serif;
+}
+button.react-calendar__navigation__label:hover {
+  background-color: transparent !important;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button {
+  min-width: 0;
+}
+button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
+  min-width: 0;
+}
+
+
+
+

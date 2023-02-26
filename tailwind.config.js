@@ -14,8 +14,8 @@ module.exports = {
         primary: ' "DM Sans", sans-serif',
         secondary: '"ABeeZee", sans-serif',
         poppins: "'Poppins', sans-serif",
-        gabriela: `'Gabriela', serif;`,
-        lusitana: "'Lusitana', serif'"
+        gabriela: "'Gabriela', serif",
+        lusitana: "'Lusitana', serif'",
       },
     },
   },

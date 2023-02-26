@@ -9,6 +9,12 @@ body {
   overflow-x: hidden;
 }
 
+
+.logo span{
+  font-family: 'Lusitana', serif;
+}
+
+
 .shape {
   height: 320px;
   width: 320px;
@@ -21,7 +27,7 @@ body {
 .shape-red {
   background-color: #ef5a81;
   top: -32px;
-  left: -150px;
+  left: -200px;
 }
 .shape-blue {
   background-color: #109aff;

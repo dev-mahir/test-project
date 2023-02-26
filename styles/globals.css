@@ -9,6 +9,15 @@ body {
   overflow-x: hidden;
 }
 
+  /* fontFamily: {
+        primary: ' "DM Sans", sans-serif',
+        secondary: '"ABeeZee", sans-serif',
+        poppins: "'Poppins', sans-serif",
+        gabriela: "'Gabriela', serif",
+        lusitana: "'Lusitana', serif'",
+      }, */
+
+
 
 .logo span{
   font-family: 'Lusitana', serif;

@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai';
+import { BsTriangleFill } from 'react-icons/bs'
 
 const Header = () => {
 
@@ -20,7 +21,7 @@ const Header = () => {
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223] opacity-60'>Developments</a></Link>
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223]'>Conferance</a></Link>
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223] opacity-60'>Blog</a></Link>
-              <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223]'>EN</a></Link>
+              <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223]'>EN<BsTriangleFill/> </a></Link>
             </nav>
           </div>
 

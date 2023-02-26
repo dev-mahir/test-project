@@ -68,7 +68,7 @@ export default function Home() {
       <div className="max-w-[780px] mx-auto px-8 pb-8 pt-[11px] bg-white border-[rgba(0,0,0,.2)] border  rounded-[16px]">
 
         <div className="text-center mb-[50px]">
-          <h2 className="font-primary text-black text-[30px]  mb-[35px] leading-[42px] font-bold ">Time Now:  {currentTime}</h2>
+          <h2 className="font-dm text-black text-[30px]  mb-[35px] leading-[42px] font-bold ">Time Now:  {currentTime}</h2>
           <div className="flex justify-center flex-col sm:flex-row gap-y-3 sm:gap-y-0 gap-x-[30px]">
             <h3 className=" text-[25px]  leading-[42px] text-black " >  Enter Meeting Duration(min)</h3>
             <form onSubmit={handleTimeSubmit} >
@@ -124,9 +124,9 @@ export default function Home() {
         }
 
         <div className="mt-[76px]">
-          <textarea className="w-full outline-none h-[170px] border-[rgba(0,0,0,.2)] border rounded-[16px] px-4 py-3 " placeholder="Additional Details"></textarea>
+          <textarea className="w-full font-ab outline-none h-[170px] border-[rgba(0,0,0,.2)] border rounded-[16px] px-4 py-3 " placeholder="Additional Details"></textarea>
 
-          <button onClick={handleBookNow}  className={`z-10 mt-[75px] bg-[#039800] text-base text-white font-gabriela w-[111px] h-[48px] flex items-center justify-center rounded-full ml-auto  ${ meetDuration ? "pointer-events-auto": "opacity-40 pointer-events-none"}`}>Book now</button>
+          <button onClick={handleBookNow} className={` z-10 mt-[75px] bg-[#039800] text-base text-white font-gabriela  w-[111px] h-[48px] flex items-center justify-center rounded-full ml-auto  ${ meetDuration ? "pointer-events-auto": "opacity-40 pointer-events-none"}`}>Book now</button>
 
         </div>
 

@@ -19,11 +19,23 @@ body {
 
 
 
+.font-dm{
+  font-family: "DM Sans", sans-serif;
+}
+.font-gabriela {
+  font-family: 'Gabriela', serif ;
+}
+.font-ab{
+  font-family: "ABeeZee", sans-serif !important;
+}
 .logo span{
   font-family: 'Lusitana', serif;
 }
 
 
+textarea::placeholder{
+    font-family: "ABeeZee", sans-serif !important;
+}
 .shape {
   height: 320px;
   width: 320px;

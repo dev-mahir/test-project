@@ -21,7 +21,7 @@ const Header = () => {
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223] opacity-60'>Developments</a></Link>
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223]'>Conferance</a></Link>
               <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223] opacity-60'>Blog</a></Link>
-              <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223]'>EN<BsTriangleFill/> </a></Link>
+              <Link href="/" className='font-secondary text-lg italic text-[#15223] opacity-60' ><a className='font-secondary text-lg italic text-[#15223] flex items-center justify-center gap-x-[11px]'>EN <span><BsTriangleFill className='rotate-180 text-[8px]' /> </span> </a></Link>
             </nav>
           </div>
 

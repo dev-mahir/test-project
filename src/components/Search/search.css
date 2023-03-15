@@ -1,0 +1,26 @@
+
+.search {
+  background: #f4f4f4;
+  border-radius: 16px;
+  margin: 0 auto;
+  height: 40px;
+}
+.search img {
+  left: 22px;
+  position: relative;
+  width: 22px;
+  top: 7px;
+}
+.search input {
+  border: none;
+  outline: none;
+  padding-left: 53px;
+  background-color: transparent;
+  height: 100%;
+}
+.search input::placeholder {
+  color: #828282;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: inherit;
+}

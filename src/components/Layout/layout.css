@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6f1fb;
+}
+.wrapper .box {
+  background-color: #fff;
+  border-radius: 25px;
+  width: 375px !important;
+  box-shadow: 0px 100px 105px rgba(0, 0, 0, 0.07),
+    0px 50.0488px 52.5513px rgba(0, 0, 0, 0.0532233),
+    0px 30.1471px 31.6544px rgba(0, 0, 0, 0.0456112),
+    0px 19.3198px 20.2858px rgba(0, 0, 0, 0.0399626),
+    0px 12.5216px 13.1476px rgba(0, 0, 0, 0.035),
+    0px 7.88218px 8.27628px rgba(0, 0, 0, 0.0300374),
+    0px 4.5288px 4.75524px rgba(0, 0, 0, 0.0243888),
+    0px 1.99324px 2.0929px rgba(0, 0, 0, 0.0167767);
+}
+.wrapper .box .top-area {
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .box .top-area div p {
+  color: #000;
+  font-weight: 700;
+  font-family: inherit;
+}
+.wrapper .box .top-area .info {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.wrapper .box .top-area .info img:nth-child(3) {
+  width: 24px;
+  height: 11px;
+}
+
+.wrapper .box .bottom-area{
+padding: 25px 52px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 5px;
+box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}

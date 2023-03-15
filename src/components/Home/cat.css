@@ -1,0 +1,24 @@
+.cat-menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 24px 0;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.cat-menu button {
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #828282;
+  background: transparent;
+  padding: 6px 8px;
+  font-family: inherit;
+}
+.cat-menu button.active {
+  background: #2c2c2c;
+  color: #ffffff;
+}

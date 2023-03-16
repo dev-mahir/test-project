@@ -2,7 +2,9 @@
 
 // create initial state 
 
-const initialState = 0;
+const initialState = {
+  loader: false
+};
 
 
 export default initialState;

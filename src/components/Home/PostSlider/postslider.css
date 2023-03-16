@@ -1,0 +1,114 @@
+.posts .post-slider {
+display: inline-block;
+}
+.posts .swiper-slide {
+    margin-right: 20px !important;
+    width: 289px !important;
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.post-slider .info {
+  position: relative;
+  margin-bottom: 12px;
+}
+.post-slider img.photo {
+  width: 100%;
+  border-radius: 16px;
+}
+.post-slider .cat-bookmark {
+  position: absolute;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.post-slider .cat-bookmark .category span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  display: inline-block;
+  font-family: inherit;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+}
+.post-slider .cat-bookmark .bookmark {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-slider .cat-bookmark .bookmark img {
+  width: 12px;
+  height: 15px;
+}
+.post-slider h2 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+.post-slider .post-info {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-slider .post-info .author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+.post-slider .post-info .author img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.post-slider .post-info .author p {
+  font-size: 10px;
+  line-height: 13.62px;
+  color: #333;
+}
+.post-slider .post-info .author p span {
+  text-decoration: underline;
+}
+
+.post-slider .post-info .date-views {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.post-slider .post-info .date-views p {
+  color: #828282;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 14px;
+}
+.post-slider .post-info .date-views .date {
+  position: relative;
+}
+.post-slider .post-info .date-views .date::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -6px;
+  background: #828282;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+}

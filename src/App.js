@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Route, Routes } from "react-router-dom";
-import SinglePost from "./components/Home/SinglePost/SinglePost";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Home/HomePage";
+import SearchPage from "./pages/Search/SearchPage";
+import SinglePost from "./pages/SinglePost/SinglePost";
 import { get_author } from "./redux/author/action";
 import { get_category } from "./redux/category/action";
 import { get_post } from "./redux/post/action";
@@ -19,7 +20,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/:id" element={<SinglePost />} />
+        <Route path="/post/:id" element={<SinglePost />} />
+        <Route path="/post/search" element={<SearchPage />} />
       </Routes>
     </>
   );

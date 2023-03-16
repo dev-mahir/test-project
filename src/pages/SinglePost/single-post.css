@@ -59,8 +59,11 @@
   right: 16px;
 }
 .single-post .bookmark img {
-  width: 12px;
-  height: 15px;
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+
+
 }
 
 .single-post .date-views {
